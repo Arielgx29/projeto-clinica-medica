@@ -1,0 +1,47 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font_princi);
+}
+:root {
+    --cor_font: #0000008c;
+    --cor_topo: #00CAD1;
+    --cor_rodape: #0C6E71;
+    --font_princi: 'Source Sans Pro', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6em;
+}
+
+/*Inicío Menu*/
+
+header {
+    padding: 0px 10px;
+    max-width: 100%;
+    background: var(--cor_topo);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.menu li {
+    margin: 10px;
+}
+
+.itens-menu{
+    text-decoration: none;
+}
+
