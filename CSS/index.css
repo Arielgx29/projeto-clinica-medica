@@ -22,7 +22,7 @@ body{
 /*Inicío Menu*/
 
 header {
-    padding: 0px 10px;
+    padding: 0px 20px;
     max-width: 100%;
     background: var(--cor_topo);
     display: flex;
@@ -43,5 +43,30 @@ header {
 
 .itens-menu{
     text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.452);
+}
+
+.itens-menu:hover {
+    color: var(--cor_rodape);
+    transition: 0.3s;
+    text-shadow: 0px 0px 0px transparent;
+
+}
+
+/* Fim do Menu*/
+
+/*INICIO HOME*/
+
+#home{
+    height: 100vh;
+    background-image: url(../imagens/recepcao.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
