@@ -75,7 +75,7 @@ header {
 #home h1{
     color: white;
     font-weight: normal;
-    font-size: 2.8em;
+    font-size: 5rem;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.473);
     padding: 20px;
     text-transform: uppercase;
@@ -219,10 +219,186 @@ header {
  }
 
  /*FIM FOOTER*/
+ 
+ @media (max-width:768px) {
+   .logo{
+     padding: 0px;
+   }
 
- @media screen {
+   .img-topo{
+      height: 70px;
+   }
+
+   .itens-menu{
+      font-size: 1.8rem;
+   }
+
+   #home{
+     height: 90vh;
+   }
+
+   #home h1 {
+      font-size: 3.4rem;
+   }
+
+   .artigos{
+      width: 75%;
+   }
+
+   .artigos h2 {
+      font-size: 2.5rem;
+   }
+
+   .artigos p {
+      font-size: 1.5rem;
+   }
+
+   .box-vantagens {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+   }
+
+   .vantagens img {
+      display: none;
+   }
+   
+   .vantagens h3{
+      font-size: 2rem;
+   }
+
+   .vantagens ul li {
+      font-size: 1.6rem;
+   }
+
+   .box-funçoes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+   }
+
+   .funçoes {
+      width: 40%;
+      margin-bottom: 40px;
+   }
+
+   .funçoes:last-child {
+      margin-bottom: 0;
+   }
+   }
+
+   @media (max-width: 480px) {
+      
+      header {
+         justify-content: center;
+         padding: 0px;
+      }
+
+      .img-topo {
+         padding-top: 20px;
+         height: 50px;
+      }
+
+      .box-menu {
+         width: 90%;
+         display: flex;
+         justify-content: center;
+         padding: 10px;
+         border-top: 1px solid #1bb4b9;
+      }
+
+      .menu{
+         width: 100%;
+         justify-content: space-around;
+      }
+
+      .menu li {
+         margin: 0;
+      }
+
+      .itens-menu {
+         font-size: 1.3rem;
+      }
+
+      #home{
+         height: 55vh;
+      }
+
+      #home h1 {
+         font-size: 2rem;
+      }
+
+      .artigos {
+         width: 90%;
+      }
+
+      .artigos h2 {
+         font-size: 1.5rem;
+      }
+
+      .artigos p, 
+      .vantagens ul li {
+         font-size: 1.1rem;
+      }
+
+      .vantagens {
+         width: 90%;
+      }
+
+      .vantagens h3{
+         font-size: 1.3rem;
+         text-align: center;
+         padding: 10px 10px;
+      }
+
+      .vantagens ul {
+         padding-left: 1rem;
+      }
+
+      .box-funçoes {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+      }
+
+      .funçoes {
+         width: 85%;
+         margin-bottom:  40px;
+      }
+
+      .funçoes figcaption{
+         font-size: 1.5rem;
+         padding: 10px;
+      }
+
+      .desc-horarios {
+         padding: 10px;
+      }
+
+      .desc-horarios a {
+         padding: 10px;
+         font-size: 1.2rem;
+      }
+
+      .localizaçao iframe {
+         height: 85vw;
+      }
+
+      .img-rodape {
+         height: 50px;
+      }
+
+      .info-rodape p,
+      .link{
+         font-size: 1.1rem;
+      }
+      
+   }
+ 
     
- }
+ 
 
  
 
